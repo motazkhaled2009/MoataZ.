@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+width: 100%;
+background: url(MK_logo_black_bg_red_even_darker.jpg); 
+background-position: center;
+background-size: cover;
+height: 100vh;
+position: relative;
+font-family: sans-serif;
+}
+.navbar{
+    width: 96%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+u1 li{
+list-style: none;
+display: inline-block;
+padding: 10px 16px;
+}
+
+u1 li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 255, 234);
+    margin-top: -3%;
+    transition: .4s ease;
+}
+
+u1 li a:hover{
+    color: rgb(231, 65, 5);
+
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+ h1{ 
+font-size: 65px;
+ color: beige;
+}
+h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: beige;
+}
+ span{
+color: rgb(255, 0, 0);
+ }
+ .icons a{
+    text-decoration: none;
+    color: aliceblue;
+ }
+ .icons ion-icons{
+    margin-left: 7%;
+    color: aliceblue;
+ }
